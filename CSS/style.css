@@ -1,0 +1,211 @@
+body{
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	background-color: #4a7dce;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	padding: 1%;
+}
+
+.line{
+	color: blue;
+	width: 20px;
+}
+
+.fb-register{
+	padding: .5%;
+	color: white;
+	background-color:#428cf4;
+	border-radius: 5px;
+	margin-bottom:1%;
+	width: 20%;
+}
+
+.form-display{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.space{
+	margin-top: 5%;
+}
+
+.form-display input{
+	width: 20%;
+	margin-top: .5%;
+	margin-bottom: .5%;
+}
+
+.birth-select{
+	width: 23%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 0;
+	margin-top:1%;
+}
+
+.termAndCond-chbx{
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	margin-top: 1%;
+}
+
+.text{
+	font-size: 15px;
+	margin-top: 1%;
+}
+
+/* INICIOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+
+.header-img{
+	height: 830px;
+}
+
+.principal{
+	background-color: white;
+}
+
+.option-header{
+	position: absolute;
+
+}
+
+.mini-option{
+	display: flex;
+	flex-direction: row;
+}
+
+.register-btn{
+	position: absolute;
+	left: 60%;
+	top: 200px;
+	color: white;
+	padding: 3%;
+	background-color:#0e65f2;
+	text-align: center;
+	border-radius: 20px;
+	border-color: transparent;
+	width: 50%;
+}
+
+.hpHeader{
+	color: white;
+	font-size: 40px;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+.headerText{
+	position: relative;
+	top:450px;
+	left: 5%;
+	color: white;
+	font-size: 60px;
+
+}
+.link-menu{
+	position: relative;
+	left: 105%;
+	color: white;
+}
+
+.link-menu a{
+	color: white;
+}
+
+.caja1 img{
+	height: 843px;
+}
+
+.caja2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: white;
+}
+
+.title-card{
+	color: blue;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin:3%;
+	font-size: 30px;
+}
+
+.blue-cardside{
+	padding: 30px;
+	display: flex;
+	background-color: #0e65f2;
+	color:white;
+	border-left: transparent;
+	border-right: transparent;
+}
+.form{
+    background-color: blue;
+   -webkit-transform: perspective(500px) rotateY(-20deg);
+    transform-origin: 10% 10%; 
+}
+
+.card{
+	border: 1px solid #D6D2D2;
+	border-radius: 5px;	
+	overflow: hidden;
+	height: 150px;
+	margin-bottom: 5%;
+	margin-left: 4%;
+}
+
+.caja2 label{
+	border-bottom: 2px solid white;
+	padding-top: 2px;
+}
+
+.pricelbl{
+	padding-top: 12px;
+}
+
+
+.caja3{
+	background-color: #1A82A6;
+	background-image: linear-gradient(#0014f9, #1cb7bc);
+	display: flex;
+	justify-content: center;
+}
+
+
+.btnImg-header button{
+	position: relative;
+	top: 30px;
+	left: 40%;	
+}
+
+.music{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	padding:5%;
+	justify-content: center;
+	text-align: justify-all;
+	color: white;
+	font-style: bold;
+}
+
+.music label{
+	padding:1%;
+}
+
+.footer{
+	background-color:#2255a5;
+	margin-top: 2%;
+	padding: .5%;
+	text-align: center;
+	color: white;
+}
